@@ -1,0 +1,79 @@
+oem_inf,original_inf,provider,class,version,verdict,category,reason
+oem57.inf,08860f21.inf,HP Inc.,Firmware,15.21.0.0,PROTECTED,Firmware,HP firmware capsule - BIOS updates via Windows Update (kept per your choice)
+oem12.inf,dptf_acpi.inf,Intel,System,8.7.10700.22502,KEEP,Thermal,Intel DPTF thermal framework ACPI - keep
+oem51.inf,dptf_cpu.inf,Intel,System,8.7.10700.22502,KEEP,Thermal,Intel DPTF CPU thermal policies (esif) - keep
+oem74.inf,dxp_metadata_universal_driver_x64_extension.inf,HP Inc.,Extension,1.0.0.5,REMOVE,HP-Metadata,HP device metadata extension (product info popups) - bloat
+oem22.inf,hdx_hpext_hsa.inf,Realtek Semiconductor Corp.,Extension,6.0.9163.1,REMOVE,HP-Audio,Realtek extension applying the HP audio profile - you opted to drop HP audio extras
+oem23.inf,hdx_hpext_srold_rtkold.inf,Realtek Semiconductor Corp.,Extension,6.0.9163.1,REMOVE,HP-Audio,Stale duplicate HP audio extension
+oem3.inf,heci.inf,Intel,System,2120.100.0.1085,KEEP,Chipset,Intel Management Engine Interface (HECI) - keep
+oem14.inf,hpanalyticsext.inf,HP Inc.,Extension,1.6.817.0,REMOVE,HP-Telemetry,HP Analytics extension - telemetry
+oem19.inf,hpcustomcapdriver.inf,HP Inc.,System,1.66.3710.0,REMOVE,HP-Framework,HP Custom Capabilities kernel driver (Support Assistant backbone)
+oem18.inf,hpcustomcapext.inf,HP Inc.,Extension,1.66.3710.0,REMOVE,HP-Framework,HP Custom Capabilities extension
+oem20.inf,hpomencustomcapdriver.inf,HP Inc.,System,1.0.704.0,REMOVE,OMEN,OMEN Gaming Hub kernel driver
+oem21.inf,hpomencustomcapext.inf,HP Inc.,Extension,1.0.704.0,REMOVE,OMEN,OMEN Gaming Hub extension
+oem52.inf,iastorac.inf,Intel Corporation,SCSIAdapter,18.36.1.1016,KEEP,Storage,Intel RST storage driver - CRITICAL (boot drive) never remove
+oem70.inf,logi_joy_bus_enum.inf,Logitech,System,2026.0.0.0,KEEP,Peripherals,Logitech G HUB virtual bus enumerator
+oem64.inf,logi_joy_vir_hid.inf,Logitech,HIDClass,2026.0.0.0,KEEP,Peripherals,Logitech virtual HID joystick
+oem71.inf,logi_lamparray_hid.inf,Logitech,HIDClass,1.1.84.7627,KEEP,Peripherals,Logitech LampArray RGB HID
+oem58.inf,logi_lamparray_usb.inf,Logitech,USB,1.1.55.3120,KEEP,Peripherals,Logitech LampArray USB (older copy)
+oem76.inf,logi_lamparray_usb.inf,Logitech,USB,1.1.84.7627,KEEP,Peripherals,Logitech LampArray USB (current)
+oem11.inf,nvppc.inf,NVIDIA,USB,1.52.831.832,KEEP,USB-C,NVIDIA USB Type-C UCSI policy controller
+oem2.inf,rocketlakesystem.inf,INTEL,System,10.1.41.5,KEEP,Chipset,Intel RocketLake CPU chipset/system
+oem30.inf,rz026bdev.inf,Razer Inc,HIDClass,6.2.9200.16547,KEEP,Peripherals,Razer HID 2017 leftover (kept per your choice)
+oem43.inf,rz0528dev.inf,Razer Inc,HIDClass,6.2.9200.16547,KEEP,Peripherals,Razer HID 2017 leftover (kept per your choice)
+oem41.inf,rzdevu_026b_dkm.inf,Razer Inc,HIDClass,10.0.15063.0,KEEP,Peripherals,Razer device 026B DKM
+oem45.inf,rzdevu_026b_hid.inf,Razer Inc,HIDClass,10.0.15063.0,KEEP,Peripherals,Razer device 026B HID
+oem44.inf,rzdevu_026b_kbd.inf,Razer Inc,Keyboard,10.0.15063.0,KEEP,Peripherals,Razer device 026B keyboard
+oem46.inf,rzdevu_026b_mou.inf,Razer Inc,Mouse,10.0.15063.0,KEEP,Peripherals,Razer device 026B mouse
+oem42.inf,rzdevu_026b_vcon.inf,Razer Inc,HIDClass,10.0.15063.0,KEEP,Peripherals,Razer device 026B virtual console
+oem25.inf,seapo64ext.inf,Sound Research Corp.,Extension,16.29.71.1962,KEEP,Audio,Sound Research audio APO delivery extension (generic not HP)
+oem80.inf,ssudbus.inf,"SAMSUNG Electronics Co., Ltd.",USB,2.21.4.0,KEEP,Phone,Samsung USB device bus
+oem81.inf,ss_conn_usb_driver2.inf,"SAMSUNG Electronics Co., Ltd.",USB,2.21.4.0,KEEP,Phone,Samsung phone connection USB
+oem7.inf,tigerlakepch-hsystem.inf,INTEL,System,10.1.34.8,KEEP,Chipset,Intel TigerLake PCH-H system (older copy)
+oem50.inf,tigerlakepch-hsystem.inf,INTEL,System,10.1.34.10,KEEP,Chipset,Intel TigerLake PCH-H system (current)
+oem1.inf,tigerlakepch-hsystemlpss.inf,INTEL,System,10.1.34.8,KEEP,Chipset,Intel TigerLake PCH-H LPSS (I2C/SPI/UART)
+oem4.inf,vigembusext.inf,HP Inc.,Extension,1.0.5.0,REMOVE,OMEN,HP virtual-gamepad extension (OMEN gamepad emulation)
+oem87.inf,vmci.inf,Broadcom Inc.,System,9.8.32.0,KEEP,Virtualization,VMware VMCI - keep
+oem86.inf,vmusb.inf,Broadcom Inc.,USB,4.3.3.0,KEEP,Virtualization,VMware USB passthrough - keep
+oem27.inf,wiman_wlan_extension.inf,Intel,Extension,267.102.85.0,KEEP,WiFi,Intel Wi-Fi extension - keep
+oem55.inf,xtuextension.inf,Intel,Extension,7.5.0.0,KEEP,Performance,Intel XTU extension - keep
+oem13.inf,dal.inf,Intel,SoftwareComponent,1.40.2020.1130,KEEP,Intel-ME,Intel DAL JHI service - keep
+oem24.inf,hdxcpc.inf,Realtek Semiconductor Corp.,MEDIA,6.0.9163.1,KEEP-CRITICAL,Audio,MAIN Realtek audio function driver - never remove (sound)
+oem37.inf,hpanalyticscomp.inf,HP Inc.,SoftwareComponent,4.2.2494.0,REMOVE,HP-Telemetry,HP Touchpoint Analytics client + 60+ WMI providers
+oem5.inf,hpaudiocenterhsa.inf,Realtek,SoftwareComponent,11.0.6000.257,REMOVE,HP-Audio,HP Audio Center software component
+oem6.inf,hpcustomcapcomp.inf,HP Inc.,SoftwareComponent,1.87.4769.0,REMOVE,HP-Framework,HP Custom Capabilities ServiceCoordinator + cap services
+oem28.inf,hpomencustomcapcomp.inf,HP Inc.,SoftwareComponent,1.0.838.0,REMOVE,OMEN,OMEN Gaming Hub OmenCap.exe + overclocking SDKs
+oem73.inf,hpygid20_v4.inf,HP,Printer,20.79.1.6738,REMOVE,HP-Printer,HP v4 print class driver (bloat if no HP printer)
+oem53.inf,iastorpinningcomponent.inf,Intel Corporation,SoftwareComponent,18.1.3.1036,KEEP,Storage,Intel RST Optane pinning component
+oem16.inf,iclsclient.inf,Intel,SoftwareComponent,1.71.99.0,KEEP,Intel-ME,Intel iCLS client (EPID provisioning)
+oem17.inf,lms.inf,Intel,SoftwareComponent,2316.5.1.12,KEEP,Intel-ME,Intel Local Management Service (AMT)
+oem15.inf,mewmiprov.inf,Intel,SoftwareComponent,2408.5.4.0,KEEP,Intel-ME,Intel ME WMI provider
+oem67.inf,netadapter.inf,Broadcom Inc.,Net,26.5.0.1,KEEP,Virtualization,VMware virtual network adapter
+oem66.inf,netbridge.inf,Broadcom Inc.,NetService,26.5.0.1,KEEP,Virtualization,VMware network bridge
+oem56.inf,netrtwlane.inf,Realtek Semiconductor Corp.,Net,2024.10.228.2,KEEP,WiFi,Realtek USB WLAN adapter driver
+oem85.inf,nvhda.inf,NVIDIA Corporation,MEDIA,1.4.6.3,KEEP,Audio,NVIDIA HDMI/DP audio (current)
+oem48.inf,nvhda.inf,NVIDIA Corporation,MEDIA,1.4.5.7,KEEP,Audio,NVIDIA HDMI/DP audio (older copy)
+oem10.inf,nvhda.inf,NVIDIA Corporation,MEDIA,1.4.5.7,KEEP,Audio,NVIDIA HDMI/DP audio (older copy)
+oem88.inf,nvhdci.inf,NVIDIA,Display,32.0.16.1742,KEEP-CRITICAL,GPU,NVIDIA GPU display driver - never remove
+oem49.inf,nvvad.inf,NVIDIA,MEDIA,4.65.0.3,KEEP,Audio,NVIDIA virtual audio (older copy)
+oem61.inf,nvvad.inf,NVIDIA,MEDIA,4.65.0.12,KEEP,Audio,NVIDIA virtual audio
+oem79.inf,nvvad.inf,NVIDIA,MEDIA,4.92.0.0,KEEP,Audio,NVIDIA virtual audio (current)
+oem34.inf,oemvista.inf,TAP-NordVPN Windows Provider V9,Net,9.27.0.0,KEEP,VPN,TAP-NordVPN adapter
+oem35.inf,ovpn-dco.inf,OpenVPN Inc,Net,1.3.2.0,KEEP,VPN,OpenVPN data channel offload (old)
+oem69.inf,ovpn-dco.inf,OpenVPN Inc,Net,1.3.3.0,KEEP,VPN,OpenVPN data channel offload (current)
+oem9.inf,pawnio.inf,namazso,SoftwareDevice,2.2.0.0,KEEP,Tools,PawnIO - used by FanControl/HWiNFO sensor tools
+oem0.inf,prnms009.inf,Microsoft,Printer,10.0.26100.4484,KEEP,Printer,Microsoft IPP class printer driver
+oem29.inf,realtekapo.inf,Realtek,SoftwareComponent,11.0.6000.973,KEEP,Audio,Generic Realtek APO sound effects (not HP-specific)
+oem32.inf,realtekservice.inf,Realtek,SoftwareComponent,1.0.0.442,KEEP,Audio,Realtek RtkAudUService64 audio control service
+oem54.inf,rt640x64.inf,Realtek,Net,10.51.811.2021,KEEP-CRITICAL,LAN,Realtek Ethernet NIC driver - never remove
+oem8.inf,rtkfilter.inf,Realtek Semiconductor Corp.,Bluetooth,1.9.1038.3003,KEEP,Bluetooth,Realtek Bluetooth filter driver
+oem38.inf,rzcommonu.inf,Razer Inc,Razer Device,10.0.15063.0,KEEP,Peripherals,Razer common device driver
+oem31.inf,seapo64.inf,Sound Research Corp.,SoftwareComponent,2.0.10.12,KEEP,Audio,Sound Research audio component
+oem26.inf,ssudadb.inf,"SAMSUNG Electronics Co., Ltd.",AndroidUsbDeviceClass,2.21.0.0,KEEP,Phone,Samsung Android ADB (old)
+oem82.inf,ssudadb.inf,"SAMSUNG Electronics Co., Ltd.",AndroidUsbDeviceClass,2.21.4.0,KEEP,Phone,Samsung Android ADB (current)
+oem78.inf,ssudmdm.inf,"SAMSUNG Electronics Co., Ltd.",Modem,2.21.4.0,KEEP,Phone,Samsung modem driver
+oem83.inf,voiceclarityep_audio_component.inf,Microsoft Corporation,AudioProcessingObject,1.0.3.56670,KEEP,Audio,Microsoft Voice Clarity APO (old)
+oem33.inf,voiceclarityep_audio_component.inf,Microsoft Corporation,AudioProcessingObject,1.0.4.7057,KEEP,Audio,Microsoft Voice Clarity APO (current)
+oem65.inf,wintun.inf,WireGuard LLC,Net,0.14.0.0,KEEP,VPN,WireGuard wintun adapter
+oem36.inf,wireguard.inf,WireGuard LLC,Net,0.10.0.0,KEEP,VPN,WireGuard tunnel driver
+oem59.inf,xtucomponent.inf,Intel,SoftwareComponent,7.5.3.3,KEEP,Performance,Intel XTU component
